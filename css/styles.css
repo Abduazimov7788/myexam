@@ -1,0 +1,1533 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/poppins-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/poppins-v20-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/poppins-v20-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-600.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/quicksand-v29-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v29-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/quicksand-v29-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/quicksand-v29-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/quicksand-v29-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/quicksand-v29-latin-regular.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/quicksand-v29-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v29-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/quicksand-v29-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/quicksand-v29-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/quicksand-v29-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/quicksand-v29-latin-500.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/quicksand-v29-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v29-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/quicksand-v29-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/quicksand-v29-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/quicksand-v29-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/quicksand-v29-latin-600.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 40px 40px;
+}
+
+.logo {
+    position: absolute;
+    width: 121px;
+    height: 48.53px;
+    left: 102px;
+    top: 16px;
+}
+
+
+.search-area {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    width: 494px;
+    height: 45px;
+    left: 262px;
+    top: 18px;
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.search-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px;
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 756px;
+    top: 18px;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.search-btn:hover {
+    opacity: 0.8;
+}
+
+.search-btn:active {
+    opacity: 0.5;
+}
+
+.img-search-btn {
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
+.wishlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 850px;
+    top: 24px;
+}
+
+.wish-word {
+    width: 60px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #2F294D;
+
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 970px;
+    top: 24px;
+}
+
+.my-cart {
+    width: 60px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #2F294D;
+
+}
+
+.cart-price {
+    width: 18px;
+    height: 15px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: #0064D2;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.user-img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1067px;
+    top: 19px;
+    background-image: url(./../img/ellipse.png);
+}
+
+.down-arrow {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1116px;
+    top: 30px;
+    background-image: url(./../img/li_chevron-down.svg);
+}
+
+.browse-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px;
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    left: 1160px;
+    top: 19px;
+    background: #0064D2;
+    border-radius: 8px;
+}
+
+
+.browse-btn:hover {
+    opacity: 0.8;
+}
+
+.browse-btn:active {
+    opacity: 0.5;
+}
+
+
+.browse-all-cat {
+    width: 140px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 108px;
+    top: 103px;
+    border-radius: 50%;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+}
+
+.back-button:active {
+    opacity: 0.5;
+}
+
+.back-text-1 {
+    position: absolute;
+    width: 555px;
+    height: 24px;
+    left: 167px;
+    top: 111px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.back-text-1>a, .back-text-2>a {
+    color: #0064D2;
+}
+
+.back-text-2 {
+    position: absolute;
+    width: 224px;
+    height: 24px;
+    left: 754px;
+    top: 111px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0064D2;
+}
+
+.section-line {
+    position: absolute;
+    width: 1440.5px;
+    height: 0px;
+    left: 0px;
+    top: 160px;
+    border: 0.5px solid rgba(173, 173, 173, 0.17);
+}
+
+.info-iphone {
+    position: absolute;
+    width: 1228px;
+    height: 701px;
+    left: 102px;
+    top: 103px;
+}
+
+.iphone-image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 536px;
+    height: 463px;
+    left: 102px;
+    top: 201px;
+    background: #E6F0FB;
+    border-radius: 24px;
+
+}
+
+.iphone-image {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    background: url(./../img/iphone.png);
+    mix-blend-mode: multiply;
+}
+
+.back-photo-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 102px;
+    top: 725px;
+    border-radius: 50%;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+}
+
+.image-rightside {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    left: 159px;
+    top: 684px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.img-rightside {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    width: 125px;
+    height: 120px;
+    background: url(./../img/iphone-right.png);
+    mix-blend-mode: multiply;
+}
+
+.image-camera-sys {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    left: 305px;
+    top: 684px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.img-cam-sys {
+    position: absolute;
+    width: 114px;
+    height: 26px;
+    background: url(./../img/camera_system_large.png);
+}
+
+.image-camera {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    left: 451px;
+    top: 684px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.img-cam {
+    position: absolute;
+    width: 96px;
+    height: 101px;
+    background: url(./../img/iphone-camera.png);
+}
+
+.next-photo-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 600px;
+    top: 725px;
+    border-radius: 50%;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+    transform: rotate(-180deg);
+}
+
+.back-photo-btn:hover, .next-photo-btn:hover {
+    opacity: 0.8;
+}
+
+.back-photo-btn:active, .next-photo-btn:active {
+    opacity: 0.5;
+}
+
+.iphone-name {
+    position: absolute;
+    width: 387px;
+    height: 54px;
+    left: 675px;
+    top: 207px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #2F294D;
+}
+
+.starlight-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 152px;
+    height: 40px;
+    left: 1070px;
+    top: 211px;
+    background: #E6F0FB;
+    border-radius: 11px;
+}
+
+.starlight-link {
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0064D2;
+}
+
+.warranty-text {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 675px;
+    top: 256px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+    opacity: 0.5;
+}
+
+.stars {
+    position: absolute;
+    width: 194px;
+    height: 32px;
+    left: 675px;
+    top: 296px;
+}
+
+.star-ball {
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    left: 155px;
+    top: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.reviews {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 870px;
+    top: 297.5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+    opacity: 0.5;
+}
+
+.iphone-price {
+    position: absolute;
+    width: 85px;
+    height: 66px;
+    left: 675px;
+    top: 336px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #2F294D;
+}
+
+.iphone-price>sup {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    opacity: 0.7;
+}
+
+.marks-text-1 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 403px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.marks-text-2 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 443px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.marks-text-3 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 483px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+
+}
+
+.marks-text-4 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 521px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.mark1 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 403px;
+}
+
+.mark2 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 443px;
+}
+
+.mark3 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 483px;
+}
+
+.mark4 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 521px;
+}
+
+.solded {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 687px;
+    top: 560px;
+}
+
+.solded-text {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 140px;
+    top: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0064D2;
+
+}
+
+.buy-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 226px;
+    height: 44px;
+    left: 679px;
+    top: 620px;
+    background: #0064D2;
+    border-radius: 10px;
+}
+
+.buy-now>a {
+    width: 83px;
+    height: 24px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.buy-now:hover {
+    opacity: 0.8;
+}
+
+.buy-now:active {
+    opacity: 0.5;
+}
+
+.add-to-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 226px;
+    height: 44px;
+    left: 921px;
+    top: 620px;
+    background: rgba(0, 100, 210, 0.1);
+    border-radius: 10px;
+}
+
+.add-to-cart>a {
+    text-decoration: none;
+    width: 93px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0064D2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-navigation {
+    display: flex;
+    position: absolute;
+    width: 1444px;
+    height: 72px;
+    left: -2px;
+    top: 863px;
+    background: #E6F0FB;
+}
+
+.menu-bar-links {
+    list-style-type: none;
+}
+
+.menu-bar-links>a {
+    text-decoration: none;
+}
+
+.bar-link-about {
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    left: 102px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+}
+
+.bar-link-shipping {
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 195px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+    opacity: 0.5;
+}
+
+.bar-link-reviews {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 312px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+    opacity: 0.5;
+}
+
+.bar-link-returns {
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    left: 423px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+    opacity: 0.5;
+}
+
+.bar-border {
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    left: 114px;
+    top: 60px;
+    background: #3972FE;
+    border-radius: 30px;
+}
+
+.bar-border-2 {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    left: 142px;
+    top: 60px;
+    background: #3972FE;
+    border-radius: 50%;
+}
+
+.about-left-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 250px;
+    height: 258px;
+    left: 102px;
+    top: 975px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.about-left-side>img {
+    width: 214px;
+    height: 48px;
+}
+
+
+
+.features {
+    position: absolute;
+    width: 914.01px;
+    height: 231px;
+    left: 424.99px;
+    top: 989px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2F294D;
+}
+
+.about2-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 258px;
+    left: 1089px;
+    top: 1293px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.about2-rs-img {
+    position: absolute;
+    width: 147.96px;
+    height: 200px;
+    background: url(./../img/image-iphone.png);
+    mix-blend-mode: multiply;
+}
+
+
+.features2 {
+    position: absolute;
+    width: 914.01px;
+    height: 231px;
+    left: 120px;
+    top: 1307px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2F294D;
+
+}
+
+.about-border {
+    position: absolute;
+    width: 1236.99px;
+    height: 0px;
+    left: 102px;
+    top: 1263px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.about-border2 {
+    position: absolute;
+    width: 1236.99px;
+    height: 0px;
+    left: 102px;
+    top: 1581px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.sp-items-text {
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    left: 102px;
+    top: 1616px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+}
+
+.charger {
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    left: 102px;
+    top: 1683px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 27px;
+}
+
+.charger-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 210px;
+    height: 180px;
+    left: 20px;
+    top: 20px;
+    background: #E6F0FB;
+    border-radius: 10px;
+}
+
+.charger-img {
+    position: absolute;
+    width: 147px;
+    height: 126px;
+    background: url(./../img/charger.png);
+    mix-blend-mode: normal;
+    background-repeat: no-repeat;
+}
+
+
+.airpods-pro {
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    left: 431px;
+    top: 1683px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 27px;
+}
+
+.airpods-pro-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 210px;
+    height: 180px;
+    left: 20px;
+    top: 20px;
+    background: #E6F0FB;
+    border-radius: 10px;
+}
+
+.airpods-pro-img {
+    position: absolute;
+    width: 132px;
+    height: 112px;
+    background: url(./../img/airpods-pro.png);
+    background-repeat: no-repeat;
+}
+
+.airpods-max {
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    left: 760px;
+    top: 1683px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 27px;
+}
+
+.airpods-max-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 210px;
+    height: 180px;
+    left: 20px;
+    top: 20px;
+    background: #E6F0FB;
+    border-radius: 10px;
+}
+
+.airpods-max-img {
+    position: absolute;
+    width: 121px;
+    height: 134px;
+    background: url(./../img/airpods-max.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.watch {
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    left: 1089px;
+    top: 1683px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 27px;
+}
+
+.watch-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 210px;
+    height: 180px;
+    left: 20px;
+    top: 20px;
+    background: #E6F0FB;
+    border-radius: 10px;
+}
+
+.watch-img {
+    position: absolute;
+    width: 121px;
+    height: 134px;
+    background: url(./../img/watch.png);
+    background-repeat: no-repeat;
+}
+
+.item-text {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 20px;
+    bottom: 83px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2F294D;
+}
+
+.item-company {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 20px;
+    bottom: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2F294D;
+    opacity: 0.7;
+}
+
+.item-price {
+    position: absolute;
+    width: 75px;
+    height: 36px;
+    left: 20px;
+    bottom: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #2F294D;
+}
+
+.item-stars {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 50px;
+    bottom: 10px;
+    background: url(./../img/Star1.png);
+    background-repeat: no-repeat;
+}
+
+.item-star-ball {
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    right: 25px;
+    bottom: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 464px;
+    left: 0px;
+    top: 2073px;
+    background: #F2F7FD;
+}
+
+.footer-border-top {
+    position: absolute;
+    width: 1236.99px;
+    height: 0px;
+    left: 102px;
+    top: 30px;
+
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer-logo {
+    position: absolute;
+    width: 120.99px;
+    height: 48.65px;
+    left: 102px;
+    top: 70px;
+
+}
+
+.account-text {
+    position: absolute;
+    width: 101px;
+    height: 36px;
+    left: 464px;
+    top: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #253D4E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.acc, .ul, .hc {
+    text-decoration: none;
+}
+.acc:hover, .ul:hover, .hc:hover, .bl:hover {
+    color: #006fe6;
+}
+.acc:active, .ul:active, .hc:active, .bl:active {
+    color: #0249fd;
+}
+
+.acc-wish {
+    position: absolute;
+    width: 57px;
+    height: 20px;
+    top: 136px;
+    left: 464px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.acc-cart {
+    position: absolute;
+    width: 33px;
+    height: 20px;
+    top: 171px;
+    left: 464px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.acc-track {
+    position: absolute;
+    width: 91px;
+    height: 20px;
+    top: 206px;
+    left: 464px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.acc-shipping {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    top: 241px;
+    left: 464px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.ul-text {
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    top: 70px;
+    left: 825px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #253D4E;
+}
+
+
+
+.ul-about {
+    position: absolute;
+    width: 69px;
+    height: 20px;
+    top: 135px;
+    left: 825px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.ul-contact {
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    top: 171px;
+    left: 825px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.ul-deals {
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    top: 206px;
+    left: 825px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.ul-promotion {
+    position: absolute;
+    width: 86px;
+    height: 20px;
+    top: 241px;
+    left: 825px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.ul-products {
+    position: absolute;
+    width: 105px;
+    height: 20px;
+    top: 276px;
+    left: 825px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.hc-text {
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    top: 70px;
+    left: 1196px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #253D4E;
+}
+
+.hc-payments {
+    position: absolute;
+    width: 76px;
+    height: 20px;
+    top: 136px;
+    left: 1196px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.hc-refund {
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    top: 171px;
+    left: 1196px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.hc-checkout {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 206px;
+    left: 1196px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.hc-shipping {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    top: 241px;
+    left: 1196px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.hc-qa {
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    top: 276px;
+    left: 1196px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.hc-privacy {
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    top: 311px;
+    left: 1196px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #253D4E;
+}
+
+.footer-border-bottom {
+    position: absolute;
+    width: 1236.99px;
+    height: 0px;
+    left: 102px;
+    top: 373.07px;
+
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.reserved-text {
+    position: absolute;
+    width: 205px;
+    height: 24px;
+    top: 406px;
+    left: 102px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253D4E;
+}
+
+.payment-icons {
+    position: absolute;
+    width: 224px;
+    height: 32px;
+    top: 402px;
+    left: 1114px;
+    background: url(./../img/Payment.svg);
+}
